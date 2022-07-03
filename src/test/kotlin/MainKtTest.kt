@@ -118,7 +118,7 @@ class MainKtTest {
         val amountPerMonthTest = 0
 
         val result = transfer(cardTypeTest, amountPerMonthTest, transferAmountTest)
-        val expectedTransfer = 5000_00
+        val expectedTransfer = 1000_00
 
         assertEquals(expectedTransfer, result)
     }
